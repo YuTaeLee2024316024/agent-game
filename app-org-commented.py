@@ -11,7 +11,7 @@ import streamlit as st  # 웹 UI 프레임워크
 import httpx  # HTTP 클라이언트 (requests보다 비동기 지원이 좋음)
 from tenacity import retry, wait_exponential, stop_after_attempt, retry_if_exception_type  # 재시도 로직 라이브러리
 
-# ==================== 앱 설정 ====================
+# ==================== 앱 설정 ==================
 # Streamlit 페이지 설정: 제목, 아이콘, 레이아웃
 st.set_page_config(page_title="윤리적 전환 (Ethical Crossroads)", page_icon="🧭", layout="centered")
 
