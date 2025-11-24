@@ -591,7 +591,7 @@ if use_llm:
         client = None
 
 # ==================== Header ====================
-st.title("🧭 윤리적 전환 (Ethical Crossroads)")
+st.title("🧭 영미권 윤리적 전환 (Ethical Crossroads)")
 st.caption("본 앱은 철학적 사고실험입니다. 실존 인물·집단 언급/비방, 그래픽 묘사, 실제 위해 권장 없음.")
 
 # ==================== Game Loop ====================
